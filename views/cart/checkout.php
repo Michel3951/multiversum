@@ -53,13 +53,12 @@
                                         <input type="text" name="house-number" id="house-number" class="form-control" pattern="[0-9]{4}[a-zA-Z]{2}" required>
                                     </div>
                                 </div>
+                                <hr>
                                 <div class="form-row">
                                     <div class="col-md">
                                         <label for="email">E-Mail Adres <span class="text-danger">*</span></label>
                                         <input type="email" name="email" id="email" class="form-control" required>
                                     </div>
-                                </div>
-                                <div class="form-row">
                                     <div class="col-md">
                                         <label for="phone">Telefoonnummer <span class="text-danger">*</span></label>
                                         <input type="text" name="phone" id="phone" class="form-control" required>
@@ -130,7 +129,7 @@
                                 </tr>
                             </table>
                             <hr>
-                            <a href="#" class="btn btn-secondary w-100">Afrekenen</a>
+                            <a href="#" class="btn btn-success w-100 text-white">Naar betaling</a>
                         </div>
                     </div>
                 </div>

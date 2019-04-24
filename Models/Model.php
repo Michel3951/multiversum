@@ -3,12 +3,14 @@
 namespace Models;
 
 use Classes\DatabaseHandler;
+use Classes\Request;
 
 class Model
 {
     public function __construct()
     {
         $this->con = new DatabaseHandler();
+        $this->request = new Request();
     }
 
     public function getAll()
