@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #1BBC9B;
+    --secondary-color: #F1C40F;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+}
+
+.btn-outline-secondary {
+    color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff !important;
+    background-color: rgba(241, 196, 15, .80) !important;
+}
+
+.btn-outline-secondary:focus {
+    color: #fff !important;
+    background-color: rgba(241, 196, 15, .80) !important;
+    box-shadow: 0 0 0 .2rem rgba(241, 196, 15, .5) !important
+}
+
+.btn-secondary {
+    color: #fff !important;
+    border-color: var(--secondary-color) !important;
+    background-color: var(--secondary-color) !important;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(241, 196, 15, .75) !important;
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 .2rem rgba(241, 196, 15, .5) !important
+}
+
+a {
+    color: var(--primary-color) !important;
+}
+
+.text-blue {
+    color: var(--primary-color) !important;
+}
+
+::placeholder {
+    color: var(--primary-color) !important;
+}
+
+.form-control-dark {
+    color: var(--primary-color) !important;
+    background: rgba(255, 255, 255, .20) !important;
+}
+
+.form-control-dark:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25) !important;
+}
+
+.borderless {
+    border: none !important;
+}
+
+.background-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-3 {
+    background: #2D3E50 !important;
+}
+
+.background-white-50 {
+    background: rgba(255, 255, 255, .50) !important;
+}
+
+.background-thin {
+    background: rgba(255, 255, 255, .05) !important;
+}
+
+.border-radius-5 {
+    border-radius: .5rem !important;
+}
+
+.text-black {
+    color: #000 !important
+}
+
+.page-item.active .page-link {
+    border: 1px solid #dee2e6 !important;
+    color: #fff !important;
+    background-color: var(--primary-color) !important
+}
+
+.page-item.disabled .page-link {
+    color: rgba(255, 255, 255, 0.5) !important;
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
+    background-color: rgba(255, 255, 255, 0.20) !important
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
